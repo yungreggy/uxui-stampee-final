@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Stampee - fiche-produit</title>
+         <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+      
+   <div class="header-container">
+     <div id="logo">
+            <a class="interactif" href="accueil.html"><img src="assets/svg/logo-stampee-3.svg" alt="Stampee Logo"></a>
+        </div>
+         <div class="icons">
+            <a class="interactif" href="#"><img class="icon" src="assets/svg/globe.svg" alt="Timezone"></a>
+            <a class="interactif" href="#"><img class="icon" src="assets/svg/icon-info.svg" alt="Info Assistance"></a>
+
+        </div>
+
+       <div class="barre-recherche">
+        <a href="#" id="advanced">avancée <img src="assets/svg/icon-chevron.svg" class="icon" alt="chevron"></a>
+                <input type="text" placeholder="Rechercher...">
+                <button type="submit">Recherche</button>
+            </div>
+
+      
+        <div class="icons-account">
+           
+
+            <a class="interactif" href="#compte"><img  class="icon" src="assets/svg/icon-user.svg" alt="Votre Compte"></a>
+            <a  class="interactif" href="#favoris"><img class="icon" src="assets/svg/icon-heart-2.svg" alt="Vos Favoris"></a>
+            <a class="interactif" href="#panier"><img class="icon" src="assets/svg/icon-cart.svg" alt="Votre Panier"></a>
+        
+        </div>
+            <div>
+ <a class="interactif" href="#">Se connecter</a>
+|
+<a class="interactif" href="#">S'inscrire</a>
+    </div>
+ </div>
+            </header>
+
+      <nav>
+            <ul>
+                <li><a class="interactif" href="#encheres">Enchères</a></li>
+                <li><a class="interactif" href="#categories">Catégories</a></li>
+                <li><a class="interactif" href="#vendre">Vendre</a></li>
+                <li><a class="interactif" href="#evaluations">Évaluations</a></li>
+                <li><a class="interactif" href="#communaute">Communauté</a></li>
+                    
+            </ul> 
+        </nav>
+
+    <main>
+    
+            <!-- Barre de filtres pour Nouveauté, Promo et Dernière chance -->
+         <div class="barre-filtres">
+  
+   
+      
+   
+      <img class="interactif icon" id="notifications" aria-expanded="false" aria-controls="notifications" src="assets/svg/icon-bell.svg" alt="notifications">
+  
+  
+   
+
+<label for="pays">Pays</label>
+  <select id="pays" name="pays">
+ <option value="">--</option>
+    <option value="afrique-du-sud">Afrique du Sud</option>
+    <option value="allemagne">Allemagne</option>
+    <option value="arabie-saoudite">Arabie Saoudite</option>
+    <option value="argentine">Argentine</option>
+    <option value="australie">Australie</option>
+    <option value="autriche">Autriche</option>
+    <option value="belgique">Belgique</option>
+    <option value="bresil">Brésil</option>
+    <option value="canada">Canada</option>
+    <option value="chili">Chili</option>
+    <option value="chine">Chine</option>
+    <option value="colombie">Colombie</option>
+    <option value="coree-du-sud">Corée du Sud</option>
+    <option value="danemark">Danemark</option>
+    <option value="egypte">Égypte</option>
+    <option value="emirats-arabes-unis">Émirats Arabes Unis</option>
+    <option value="espagne">Espagne</option>
+    <option value="etats-unis">États-Unis</option>
+    <option value="finlande">Finlande</option>
+    <option value="france">France</option>
+    <option value="grece">Grèce</option>
+    <option value="hongrie">Hongrie</option>
+    <option value="inde">Inde</option>
+    <option value="indonesie">Indonésie</option>
+    <option value="irlande">Irlande</option>
+    <option value="islande">Islande</option>
+    <option value="israel">Israël</option>
+    <option value="italie">Italie</option>
+    <option value="japon">Japon</option>
+    <option value="liban">Liban</option>
+    <option value="luxembourg">Luxembourg</option>
+    <option value="malaisie">Malaisie</option>
+    <option value="maroc">Maroc</option>
+    <option value="mexique">Mexique</option>
+    <option value="norvege">Norvège</option>
+    <option value="nouvelle-zelande">Nouvelle-Zélande</option>
+    <option value="pays-bas">Pays-Bas</option>
+    <option value="perou">Pérou</option>
+    <option value="philippines">Philippines</option>
+    <option value="pologne">Pologne</option>
+    <option value="portugal">Portugal</option>
+    <option value="republique-tcheque">République Tchèque</option>
+    <option value="royaume-uni">Royaume-Uni</option>
+    <option value="russie">Russie</option>
+    <option value="suede">Suède</option>
+    <option value="suisse">Suisse</option>
+    <option value="thailande">Thaïlande</option>
+    <option value="turquie">Turquie</option>
+  </select>
+
+       <label for="condition">Condition</label>
+<select id="condition" name="condition">
+     <option value="">--</option>
+    <option value="parfaite">Parfaite</option>
+    <option value="excellente">Excellente</option>
+    <option value="bonne">Bonne</option>
+    <option value="moyenne">Moyenne</option>
+    <option value="endommagee">Endommagée</option>
+</select>
+
+    
+
+  <label for="fourchette-prix">Prix</label>
+<select id="fourchette-prix" name="fourchette-prix">
+    <option value="0-50">0 - 50 CAD</option>
+    <option value="51-100">51 - 100 CAD</option>
+    <option value="101-500">101 - 500 CAD</option>
+    <option value="501-1000">501 - 1 000 CAD</option>
+    <option value="1001-5000">1 001 - 5 000 CAD</option>
+    <option value="5001-plus">Plus de 5 000 CAD</option>
+</select>
+
+   
+
+    
+      <label for="type-enchere">Type d'enchère</label>
+<select id="type-enchere" name="type-enchere">
+     <option value="">--</option>
+    <option value="standard">Enchère standard</option>
+    <option value="reserve">Enchère avec prix de réserve</option>
+    <option value="dutch">Enchère hollandaise</option>
+    <option value="silent">Enchère silencieuse</option>
+    <option value="sealed-bid">Enchère à offre scellée</option>
+</select>
+
+
+  
+        <label for="rarete">Rareté</label>
+        <select id="rarete" name="rarete">
+             <option value="">--</option>
+            <option value="basse">Basse</option>
+            <option value="moyenne">Moyenne</option>
+            <option value="haute">Haute</option>
+        </select>
+  
+
+   
+
+
+     <label for="taille">Taille</label>
+<select id="taille" name="taille">
+    <option value="standard">Standard (20mm x 24mm)</option>
+    <option value="small">Petit (18mm x 22mm)</option>
+    <option value="large">Grand (24mm x 30mm)</option>
+    <option value="square">Carré (25mm x 25mm)</option>
+    <option value="horizontal">Horizontal (30mm x 24mm)</option>
+    <option value="vertical">Vertical (24mm x 30mm)</option>
+</select>
+  
+        <label for="couleur">Couleur</label>
+        <input type="color" id="couleur" name="couleur">
+
+        <label for="certifie">Certifié</label>
+        <input type="checkbox" id="certifie" name="certifie">
+       
+        <label for="offres-speciales">Promo</label>
+        <input type="checkbox" id="offres-speciales" name="offres-speciales">
+
+        <button type="submit">Appliquer les Filtres</button>
+   
+</div>
+
+
+<div>
+   <a href="catalogue.html"><img class="back interactif" src="assets/svg/icon-fleche-gauche.svg" alt="retour" title="Retour aux enchères"></a>
+</div>
+
+         
+        <div id="timbre-details">
+        <div class="timbre-image">
+            <img src="assets/img/timbre7.jpg" class="interactif" alt="Image principale du Timbre" title="Image principale du Timbre">
+            <div class="additional-images">
+                <img src="assets/img/timbre8.jpg" class="interactif" alt="Image supplémentaire 1 du Timbre">
+                <img src="assets/img/timbre9.jpg" class="interactif" alt="Image supplémentaire 2 du Timbre">
+            </div>
+        </div>
+        <div class="timbre-info">
+            <h2 id="titre" class="titre-info">Lady Lord Madame<img src="assets/svg/icon-certifier.svg" class="icon certified" alt="Certifié" title="Certifié"></h2>
+            <ul>
+                <li >Date de mise en ligne: <span class="titre-info">23-11-2023</span></li>
+                <li >Date d'émission: <span class="titre-info">1922</span></li>
+                <li  >Couleurs: <span class="titre-info">non spécifié</span></li>
+                <li>Pays d'Origine: <span class="titre-info">Grande-Bretagne</span></li>
+                <li>Condition: <span class="titre-info">Excellente</span></li>
+                <li >Tirage: <span class="titre-info">XXXX</span></li>
+                <li>Dimensions: <span class="titre-info">XXXX</span></li>
+                <li ></li>
+            </ul>
+            <div class="timbre-description">
+                <h3 class="titre-info" id="description">Description</h3>
+                <p>Insérez ici la description du timbre. Cela pourrait inclure des informations historiques, des anecdotes intéressantes, ou d'autres détails pertinents qui rendent ce timbre unique.</p>
+            </div>
+            <div class="icon-partage" style="display: flex;">
+              <img class="interactif" src="assets/svg/icon-social.svg" style="width: 100px;" alt="Réseaux sociaux">
+          
+
+            </div>
+
+    
+
+        </div>
+                <div class="separator"></div>
+    <div id="auction-details">
+   
+        <h2 class="titre-info">Détails de l'Enchère</h2>
+        <ul>
+            <li>Période d'activité: <span class="titre-info">De XXXX à XXXX</span></li>
+            <li>Prix plancher: <span class="titre-info">XXXX</span></li>
+            <li>Coups de cœur du Lord: <span class="titre-info">Oui/Non</span></li>
+            <li> Vendeur: <a href="#" class="titre-info" style="text-decoration: underline; font-style:italic; color:#3695ED;">Nom du vendeur</a></li>
+        </ul>
+       
+
+        <h3 >Prix actuel: <span class="prix">1000 CAD</span></h3>
+       <div class="auction-icons">
+        <img class="interactif icon" src="assets/svg/icon-coin.svg" width="50" height="50" alt="miser" title="Placer une offre">
+        <input type="number" style="padding: 6px;">
+        </div>
+
+  <img src="assets/svg/icon-heart-3.svg" class="interactif icon" width="50" height="50" alt="favoris" title="Ajouter à vos favoris">
+  
+
+   <div class="timer-div"><p class="timer-produit">2 heures 00:12 minutes </p>
+<img class="interactif" src="assets/svg/icon-clock.svg" alt="décompte" title="décompte"></div>
+
+     
+       
+
+      
+    </div>
+    </div>
+
+ <div class="chatbox-container">
+            <a class="interactif" href="#">
+                <img class="chatbox" src="assets/svg/icon-chat.svg" alt="chatbox">
+            </a>
+        </div>
+
+
+            </main>
+
+
+
+
+
+
+
+     <footer>
+        <div class="footer-nav">
+             <div class="footer-newsletter">
+            <p>Oui ! Je souhaite recevoir des offres exclusives, des idées de cadeaux uniques et des astuces personnalisées pour acheter et vendre sur Stampee.</p>
+
+            <form action="#" class="footer-newsletter">
+                <input type="email" name="email" id="email" placeholder="Entrez votre adresse courriel">
+                <input type="submit" value="S'abonner !">
+            </form>
+
+        </div>
+
+
+
+
+            <div class="footer-nav">
+             
+
+                <ul class="footer-nav">
+                    <li> <h3 class="footer-nav">Acheter</h3></li>
+                    <li></li>
+                    <li><a href="#">Plan du site</a></li>
+                    <li><a href="#">Stampee UK</a></li>
+                    <li><a href="#">Stampee FR</a></li>
+                    <li><a href="#">Stampee Canada</a></li>
+                     <li><a href="#">Carte cadeau</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-nav">
+               
+
+                <ul class="footer-nav">
+                    <li><h3 class="footer-nav">Vendre</h3></li>
+                    <li></li>
+                    <li><a href="#">Vendre sur Stampee</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Forums</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-nav">
+                
+
+                <ul class="footer-nav">
+                    <li><h3 class="footer-nav">À propos</h3></li>
+                    <li></li>
+                    <li><a href="#">Conditions générales de ventes</a></li>
+                    <li><a href="#">Investisseurs</a></li>
+                    <li><a href="#">Carrière</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Impact</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-nav">
+               
+
+                <ul class="footer-nav">
+                    <li> <h3 class="footer-nav">Aide</h3></li>
+                    <li></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Paramètres de confidentionalités</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-options">
+            <ul class="footer-options">
+                <li><a href="#">Français</a></li>
+             <li>|</li>
+                <li><a href="#">Canada</a></li>
+                   <li>|</li>
+                <li><a href="#">$ (CAD)</a></li>
+            </ul>
+
+            <p class="footer-options">© 2023. Tous droits réservés.</p>
+
+            <ul class="footer-options">
+                <li><a href="#">Conditions d'utilisations</a></li>
+                <li><a href="#">Confidentionalité</a></li>
+                <li><a href="#">Publicités</a></li>
+
+            </ul>
+      
+
+        </div>
+
+    </footer>
+
+        </body>
+    </html>
