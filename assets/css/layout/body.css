@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-size: smaller;
+    color: var(--color-primary);
+    font-family: 'Open sans';
+  
+}
+

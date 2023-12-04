@@ -1,0 +1,28 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Made Tommy';
+    src: url("assets/fonts/made_tommy_soft/MADE-Tommy-Soft-ExtraBold-outline.otf");
+}
+
+
+:root {
+
+    --font-family-base: 'Open Sans', sans-serif;
+    --font-size-base: 12px;
+    --font-size-h1: 20px;
+    --font-size-h2: 17px;
+    --font-size-h3: 14px;
+    --font-weight-bold: bold;
+    --line-height-base: 1.5;
+
+
+}

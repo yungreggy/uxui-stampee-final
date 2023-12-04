@@ -1,0 +1,71 @@
+#notifications :hover {
+    transform: none;
+}
+
+a .icon .chatbox {
+    position: absolute;
+    right: 0;
+}
+
+a .icon .chatbox:hover {
+    filter: none;
+}
+
+.chatbox-container {
+    position: fixed;
+    right: 55px;
+    bottom: 50px;
+    pointer-events: all;
+    z-index: 1001;
+}
+
+.chatbox:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow-down {
+    margin-top: 1rem;
+}
+
+.icon:hover {
+    filter: brightness(220%);
+    transform: scale(1.2);
+}
+
+.icon-svg {
+    width: var(--spacing-md);
+}
+
+.icone {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.icon-produit {
+    z-index: 1001;
+    pointer-events: all;
+    position: absolute;
+    right: 13px;
+    top: 9px;
+}
+
+.icon-produit:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-bid:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}

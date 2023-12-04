@@ -1,0 +1,184 @@
+@import url(../base/reset.css);
+@import url(../base/couleurs-2.css);
+@import url(../base/rythme.css);
+@import url(../base/typographie.css);
+@import url(../base/base.css);
+
+@import url(../layout/header.css);
+@import url(../layout/nav.css);
+@import url(../layout/footer.css);
+@import url(./layout/main.css);
+
+@import url(./pages/catalogue.css);
+@import url(./ages/produit.css);
+
+@import url(../components/formulaire.css);
+@import url(../components/icones.css);
+
+
+.home {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 0%,
+            60%,
+            #e7f3ff 80%,
+            #9dcaf3 100%) no-repeat;
+}
+
+.footer-home {
+    position: relative;
+    bottom: 0%;
+}
+
+.main-home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: max-content;
+    align-items: flex-start;
+    padding: var(--spacing-md);
+    align-content: center;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+
+form input,
+input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 200px;
+}
+
+form button {
+    border-radius: 25px;
+    padding: 0.7rem;
+    border: 1px solid #0a4bad;
+    cursor: pointer;
+    color: white;
+    background-color: #0c69be;
+}
+
+.svg-orange {
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    flex-shrink: 0;
+    fill: rgba(249, 90, 0, 0.89);
+}
+
+.timbre-bleu-cadre {
+    position: absolute;
+    top: 24%;
+    left: 11%;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    left: 8%;
+    top: 235px;
+}
+
+.section-header {
+    display: flex;
+}
+
+.section-aside {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+.intro {
+    display: flex;
+    color: #0c69be;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.792%;
+    letter-spacing: 2.88px;
+    width: 510px;
+    height: 609px;
+    flex-shrink: 0;
+    flex-direction: column;
+    z-index: 1001;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin-right: 8rem;
+    height: 780px;
+    position: relative;
+    top: 0%;
+    right: 20%;
+}
+
+.intro p {
+    position: absolute;
+    top: 10%;
+}
+
+#login {
+    gap: 10px;
+    color: #174891;
+    font-size: larger;
+    position: absolute;
+    left: 14%;
+    top: 38%;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.avec-stampee {
+    color: #f45b05;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0%;
+    letter-spacing: -1.44px;
+}
+
+.svg-timbre-jaune {
+    position: absolute;
+    top: 204px;
+    right: 12%;
+    z-index: 1000;
+    fill: var(--Gold, #eccd29);
+    mix-blend-mode: exclusion;
+}
+
+.nav-home {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    position: absolute;
+    top: 63%;
+    left: 210px;
+}
+
+.explorer {
+    position: absolute;
+    top: 40%;
+    right: -9%;
+}
+
+.chatbox {
+    position: fixed;
+    right: 55px;
+    bottom: 50px;
+    pointer-events: all;
+    z-index: 1001;
+}

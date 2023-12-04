@@ -1,0 +1,126 @@
+.timbre-image img {
+  max-width: 400px;
+  flex-basis: 30%;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.timbre-image img:hover {
+  filter: grayscale(50);
+}
+
+.timbre-image {
+  border: 1px solid goldenrod;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+#timbre-details {
+  display: flex;
+  padding: 2rem;
+  line-height: 25px;
+  background-color: rgb(255, 255, 255);
+  margin: 1rem;
+  border-radius: 25px;
+  margin-right: 150px;
+  max-width: 1300px;
+}
+
+.timbre-info {
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: justify;
+  margin-left: 1rem;
+}
+
+.titre-info {
+  font-weight: bold;
+}
+
+
+#description {
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+
+#titre {
+  font-size: xx-large;
+  padding-bottom: 1rem;
+  font-family: 'Made Tommy';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+#auction-details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.additional-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.additional-images img {
+  max-width: 195px;
+  padding: 6px;
+}
+
+
+.prix {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.auction-icons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: row;
+}
+
+.timer-produit {
+  font-size: larger;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.certified {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+}
+
+.timbre-description {
+  height: 320px;
+}
+
+.timer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.back {
+  margin-top: 3rem;
+}
+
+.separator {
+  border-left: 1px solid rgb(101, 166, 234);
+  height: 600px;
+  margin: 0 60px;
+}

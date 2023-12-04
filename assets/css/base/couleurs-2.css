@@ -1,0 +1,54 @@
+:root {
+    /* Colors */
+    --color-background: #aad3ff;
+    /* Background gradient base */
+    --color-primary: #014482;
+    /* Text, icons, and buttons */
+    --color-secondary: #007BFF;
+    /* Secondary elements */
+    --color-accent: #ff7300;
+    /* Accents for CTAs and highlights */
+    --color-tertiary: rgb(208, 226, 247);
+    /* Tertiary elements and backgrounds */
+    --color-label-border: rgb(27, 134, 241);
+
+    --button-background: #014482;
+
+    
+    --color-text: #132277;
+
+    --color-border: #ccc;
+
+    --color-button-border: #0a4bad;
+    /*--color-footer-background: rgba(255, 255, 255, 0.484); */
+    --color-product-background: rgba(252, 252, 252, 0.401);
+    --color-product-border: rgb(208, 226, 247);
+
+
+    --color-label-border: rgb(93, 148, 202);
+    --color-input-focus-border: #007BFF;
+
+    /* --color-button-hover: rgb(255, 115, 0); */
+    --color-a-hover: #fff;
+}
+
+
+body {
+    background: linear-gradient(180deg, #9DCAF3 0%, #FFFFFF 50%, #9DCAF3 100%) no-repeat;
+}
+
+
+.label {
+    border: 1px solid var(--color-label-border);
+    color: var(--color-primary);
+}
+
+
+/* Transitions */
+.barre-recherche button,
+.barre-filtres button,
+.ajouter-panier,
+.ajouter-favoris,
+.filtres-1 button[type="submit"] {
+    transition: background-color 0.2s ease;
+}
